@@ -1,3 +1,42 @@
 .container{
-    margin-top: 5%;
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+    padding-left: 0%;
+}
+
+.navbar{
+    border-top: 0%;
+    height:100px; 
+    width: auto; 
+    text-align:center;
+    top: 0;
+    position: relative;
+    display: flex;
+}
+
+#roles{
+    float: right;
+}
+
+.card-header{
+    font-size: 22px;
+    vertical-align: middle;
+}
+
+.card{
+    margin: 25px;
+    box-shadow: 7px 5px 5px grey;
+}
+.row{
+    max-width: 1000px;
+    display: flex;
+    margin: auto;
+}
+.hr{
+    background-color: rgba(201, 198, 198, 0.815);
+    height: 1%;
+}
+.card-body{
+    padding: 10px;
 }

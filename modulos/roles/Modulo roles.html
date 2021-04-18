@@ -11,10 +11,10 @@
     </head>
 
     <body>
+          <header>
+            <div class="container">
 
-        <div class="container">
-
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+              <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <a class="navbar-brand" href="#">Navbar</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
@@ -35,16 +35,17 @@
                       <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="#">Archivos</a>
                         <a class="dropdown-item" href="#">Información</a>
-                        <div class="dropdown-divider"></div>
                         <a class="dropdown-item" href="#">Notas</a>
                       </div>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">roles</a>
+                      <a class="nav-link" href="#">roles</a>
                     </li>
                   </ul>
                 </div>
               </nav>
+          </header>
+
 
             <div class="row justify-content-center">
 
@@ -53,7 +54,8 @@
                     <div class="card">
 
                         <div class="card-header">
-                            Modulo roles
+                            Roles
+                            <td><button type="button" class="btn btn-primary" id="roles" onclick="location.href='./addroles.html'" >Modificar</button></td>
                         </div>
 
                         <div class="card-body">
@@ -61,29 +63,25 @@
                                 <thead class="thead-dark">
                                     <tr>
                                        <th scope="col">#</th>
-                                      <th scope="col">First</th>
-                                      <th scope="col">Last</th>
-                                      <th scope="col">Handle</th>
+                                      <th scope="col">Rol</th>
+                                      <th scope="col">Herramientas</th>
                                       </tr>
                                   </thead>
                                   <tbody>
                                         <tr>
                                         <th scope="row">1</th>
-                                        <td>Mark</td>
-                                        <td>Otto</td>
-                                        <td>@mdo</td>
+                                        <td>Administrador</td>
+                                        <td><button type="button" class="btn btn-primary">Modificar</button><button type="button" class="btn btn-danger" onclick="">Eliminar</button></td></td>
                                         </tr>
                                         <tr>
                                         <th scope="row">2</th>
-                                        <td>Jacob</td>
-                                        <td>Thornton</td>
-                                        <td>@fat</td>
+                                        <td>Profesor</td>
+                                        <td><button type="button" class="btn btn-primary">Modificar</button><button type="button" class="btn btn-danger">Eliminar</button></td></td>
                                         </tr>
                                         <tr>
-                                        <th scope="row">3</th>
-                                        <td>Larry</td>
-                                        <td>the Bird</td>
-                                        <td>@twitter</td>
+                                          <th scope="row">3</th>
+                                          <td>Estudiantes</td>
+                                          <td><button type="button" class="btn btn-primary">Modificar</button><button type="button" class="btn btn-danger">Eliminar</button></td></td>
                                         </tr>
                                     </tbody>
                             </table>

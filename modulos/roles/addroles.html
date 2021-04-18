@@ -9,7 +9,67 @@
     <link rel="stylesheet" href="C:\Users\Sergio\Colegio\Diplomado\Projecto\css\styles.css" type="text/css">
 </head>
 <body>
-   
+
+    <header>
+        <div class="container">
+
+          <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Inicio<span class="sr-only"></span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Estudiantes
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Archivos</a>
+                    <a class="dropdown-item" href="#">Información</a>
+                    <a class="dropdown-item" href="#">Notas</a>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">roles</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+      </header>
+
+
+    <div class="row justify-content-center">
+
+        <div class="col-sm-9 col-xl-9">
+
+            <div class="card">
+                
+                <div class="card-header">
+                    Añadir Rol
+                    <td><button type="button" class="btn btn-primary" id="roles">Modificar</button></td>
+                   <hr class="hr">
+                <div class="card-body">
+                    <p>Nombre</p>
+                    <form>
+                        <div class="form-group">
+                          <input type="name" class="form-control" id="name" aria-describedby="name">
+                          <small id="name" class="form-text text-muted">Ingrese el Nombre del Rol</small>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                      </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 
     
