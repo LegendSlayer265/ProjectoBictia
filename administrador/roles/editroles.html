@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Añadir roles</title>
+    <title>Editar roles</title>
     <link href="C:\Users\Sergio\Colegio\Diplomado\Projecto\bootstrap-4.6\css\bootstrap.min.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="C:\Users\Sergio\Colegio\Diplomado\Projecto\css\styles.css" type="text/css">
 </head>
 <body>
-
+    
     <header>
         <div class="container">
 
@@ -45,36 +45,35 @@
           </nav>
       </header>
 
-
-    <div class="row justify-content-center">
+      <div class="row justify-content-center">
 
         <div class="col-sm-9 col-xl-9">
-
+  
             <div class="card">
-                
-                <div class="card-header">
-                    Añadir Rol
-                    <td><button type="button" class="btn btn-primary" id="roles">Modificar</button></td>
-                   <hr class="hr">
+                  
+              <div class="card-header">
+                Editar Rol
+                <td><button type="button" class="btn btn-primary" id="roles"  onclick="location.href='./Moduloroles.html'">Cancelar</button></td>
+                <hr class="hr">
                 <div class="card-body">
-                    <p>Nombre</p>
-                    <form>
-                        <div class="form-group">
-                          <input type="name" class="form-control" id="name" aria-describedby="name">
-                          <small id="name" class="form-text text-muted">Ingrese el Nombre del Rol</small>
-                        </div>
-                        <button type="submit" class="btn btn-primary">Submit</button>
-                      </form>
+                <p>Nombre</p>
+                <form>
+                <div class="form-group">
+                <input type="name" class="form-control" id="name" aria-describedby="name">
+                <small id="name" class="form-text text-muted">Editar el Nombre del Rol</small>
                 </div>
+                <button type="submit" class="btn btn-primary">Aceptar</button>
+                </form>
+                </div>
+              </div>
             </div>
         </div>
-    </div>
-</div>
+      </div>
 
 
-    
+
     <script src="C:\Users\Sergio\Colegio\Diplomado\Projecto\js\jquery-3.6.min.js"></script>
     <script src="C:\Users\Sergio\Colegio\Diplomado\Projecto\bootstrap-4.6\js\bootstrap.bundle.min.js"></script>
- 
+
 </body>
 </html>
